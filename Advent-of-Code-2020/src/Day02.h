@@ -10,8 +10,6 @@ public:
 
 private:
 
-	void ReadData();
-
 	std::string mInputFile;
 };
 

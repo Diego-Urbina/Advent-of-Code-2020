@@ -3,7 +3,7 @@
 #include <fstream>
 #include <regex>
 #include <limits>
-#include <math.h>
+#include <cmath>
 
 using namespace std;
 
@@ -21,7 +21,7 @@ void Day13::Puzzle1()
 	for (int i = 0; i < mBuses.size(); ++i)
 	{
 		int bus = mBuses[i];
-		int nextDeparture = bus * ceil(mFrom / (double)bus);
+		int nextDeparture = bus * std::ceil(mFrom / (double)bus);
 
 		if (nextDeparture < mBestDepartureTime)
 		{
