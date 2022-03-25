@@ -10,7 +10,7 @@ using namespace std;
 
 const string TARGET_BAG = "shiny gold";
 
-Day07::Day07() : mInputFile{ "inputs/day07.txt" }
+Day07::Day07() : mInputFile{ "inputs/Day07.txt" }
 {
 	cout << endl << "DAY 07" << endl;
     ReadData();
