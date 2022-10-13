@@ -4,7 +4,7 @@
 
 using namespace std;
 
-Day16::Day16() : mInputFile{"inputs/day16.txt"}
+Day16::Day16() : mInputFile{"Day16/day16.txt"}
 {
 	cout << endl
 		 << "DAY 16" << endl;

@@ -9,7 +9,7 @@ using namespace std;
 
 vector<string> validKeys{ "byr", "iyr", "eyr", "hgt", "hcl", "ecl", "pid", "cid" };
 
-Day04::Day04() : mInputFile{ "inputs/Day04.txt" }
+Day04::Day04() : mInputFile{ "Day04/Day04.txt" }
 {
 	cout << endl << "DAY 04" << endl;
     ReadData();

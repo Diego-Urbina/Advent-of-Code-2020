@@ -8,7 +8,7 @@
 using namespace std;
 
 Day11::Day11() : 
-	mInputFile{ "inputs/Day11.txt" },
+	mInputFile{ "Day11/Day11.txt" },
 	mSeatsSource{ make_unique<std::vector<std::string>>() },
 	mSeatsTarget{ make_unique<std::vector<std::string>>() }
 {
