@@ -1,4 +1,4 @@
-project(aoc2022)
+project(aoc2020)
 
 add_executable(
     ${PROJECT_NAME}
