@@ -6,7 +6,7 @@
 
 using namespace std;
 
-Day05::Day05(std::string execFolder) : mInputFile{execFolder + "/input/Day05.txt"}
+Day05::Day05(std::string inputFile) : mInputFile{inputFile}
 {
     utils::format::print_title(5);
     ReadData();

@@ -11,7 +11,7 @@ using namespace std;
 
 const string TARGET_BAG = "shiny gold";
 
-Day07::Day07(std::string execFolder) : mInputFile{execFolder + "/input/Day07.txt"}
+Day07::Day07(std::string inputFile) : mInputFile{inputFile}
 {
     utils::format::print_title(7);
     ReadData();

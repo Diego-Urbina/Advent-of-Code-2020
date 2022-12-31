@@ -26,7 +26,7 @@ private:
 class Day04
 {
 public:
-    Day04(std::string execFolder);
+    Day04(std::string inputFile);
 
     int Puzzle1();
     int Puzzle2();

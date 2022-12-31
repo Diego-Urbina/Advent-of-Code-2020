@@ -14,7 +14,7 @@ struct Bag
 class Day07
 {
 public:
-    Day07(std::string execFolder);
+    Day07(std::string inputFile);
     int Puzzle1();
     int Puzzle2();
 

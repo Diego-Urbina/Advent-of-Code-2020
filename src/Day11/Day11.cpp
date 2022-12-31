@@ -8,9 +8,8 @@
 
 using namespace std;
 
-Day11::Day11(std::string execFolder) :
-    mInputFile{execFolder + "/input/Day11.txt"},
-    mSeatsSource{make_unique<std::vector<std::string>>()},
+Day11::Day11(std::string inputFile) :
+    mInputFile{inputFile}, mSeatsSource{make_unique<std::vector<std::string>>()},
     mSeatsTarget{make_unique<std::vector<std::string>>()}
 {
     utils::format::print_title(11);

@@ -8,7 +8,7 @@
 class Day09
 {
 public:
-    Day09(std::string execFolder);
+    Day09(std::string inputFile);
 
     long long Puzzle1(bool test = false);
     long long Puzzle2(bool test = false);

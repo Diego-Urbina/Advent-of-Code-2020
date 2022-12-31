@@ -5,7 +5,7 @@
 class Day13
 {
 public:
-    Day13(std::string execFolder);
+    Day13(std::string inputFile);
     int Puzzle1();
     long long Puzzle2();
 

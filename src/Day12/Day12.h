@@ -83,7 +83,7 @@ private:
 class Day12
 {
 public:
-    Day12(std::string execFolder);
+    Day12(std::string inputFile);
     int Puzzle1();
     int Puzzle2();
 

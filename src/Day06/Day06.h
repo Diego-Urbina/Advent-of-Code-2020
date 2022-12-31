@@ -23,7 +23,7 @@ struct Group
 class Day06
 {
 public:
-    Day06(std::string execFolder);
+    Day06(std::string inputFile);
 
     int Puzzle1();
     int Puzzle2();

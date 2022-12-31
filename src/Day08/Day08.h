@@ -14,7 +14,7 @@ struct Instruction
 class Day08
 {
 public:
-    Day08(std::string execFolder);
+    Day08(std::string inputFile);
 
     int Puzzle1();
     int Puzzle2();

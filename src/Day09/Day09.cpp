@@ -7,7 +7,7 @@
 
 using namespace std;
 
-Day09::Day09(std::string execFolder) : mInputFile{execFolder + "/input/Day09.txt"}
+Day09::Day09(std::string inputFile) : mInputFile{inputFile}
 {
     utils::format::print_title(9);
     ReadData();

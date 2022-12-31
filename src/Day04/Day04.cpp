@@ -10,7 +10,7 @@ using namespace std;
 
 vector<string> validKeys{"byr", "iyr", "eyr", "hgt", "hcl", "ecl", "pid", "cid"};
 
-Day04::Day04(std::string execFolder) : mInputFile{execFolder + "/input/Day04.txt"}
+Day04::Day04(std::string inputFile) : mInputFile{inputFile}
 {
     utils::format::print_title(4);
     ReadData();

@@ -16,7 +16,7 @@ struct InstructionSet
 class Day14
 {
 public:
-    Day14(std::string execFolder);
+    Day14(std::string inputFile);
     long long Puzzle1();
     long long Puzzle2();
 
